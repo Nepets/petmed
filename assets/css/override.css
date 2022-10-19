@@ -1,0 +1,114 @@
+body {
+  background-color: var(--bs-gray-100);
+}
+
+.mybutton {
+  color: white;
+  background-color: var(--bs-red);
+  /*box-shadow: var(--bs-red);*/
+  border-color: var(--bs-gray-800);
+}
+
+.mybutton:hover {
+  background-color: firebrick;
+  border-color: firebrick;
+}
+
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .25rem rgba(49,132,253,.5);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: 600;
+  /*line-height: 12px;*/
+  letter-spacing: 3px;
+}
+
+.mycard {
+
+  border-radius: 10px;
+  background-color: var(--bs-red);
+  height: 250px;
+  width: 250px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  flex-direction: row;
+  justify-items: center;
+}
+a.mycard{
+  text-decoration: none;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.my-table {
+  color: white;
+}
+
+.modal-header {
+  background-color: var(--bs-gray-900);
+  color: white;
+}
+
+.modal-body {
+  background-color: var(--bs-gray-800);
+}
+
+.modal-footer {
+  background-color: var(--bs-gray-900);
+}
+
+.table-active {
+  --bs-table-accent-bg: var(--bs-table-active-bg);
+  color: var(--bs-danger);
+}
+
+label {
+  color: white;
+  font-weight: 500;
+}
+
+.dropdown-btn {
+}
+
+.dropdown-btn {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-btn:hover {
+  background-color: var(--bs-gray-300);
+  color: black;
+}
+
+.dropdown-btn:active {
+  background-color: bs var(--bs-gray-300);
+  color: black;
+}
+
+.btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--bs-pink);
+  border-color: var(--bs-pink);
+}
+
+icon {
+  /*background-color: #b22222;*/
+}
+
